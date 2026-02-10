@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import WelcomeMessage from './components/WelcomeMessage.jsx'
 import Header from './Header.jsx'
-import MainContext from './MainContent.jsx'
+import MainContent from './MainContent.jsx'
 import Footer from './Footer.jsx'
 
 
@@ -16,7 +16,7 @@ function App() {
     <>
       <WelcomeMessage />
       <Header />
-      <MainContext />
+      <MainContent />
       <Footer />
       <div>
         <a href="https://vite.dev" target="_blank">
